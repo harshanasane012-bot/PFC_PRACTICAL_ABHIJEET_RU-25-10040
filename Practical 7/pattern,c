@@ -1,0 +1,17 @@
+#include <stdio.h>
+//Abhijeet //
+//RU 25 10040//
+int main() {
+    for(int i = 0; i < 4; i++) {
+        for(char ch = 'A'; ch <= 'A' + i; ch++) {
+            printf("%c", ch);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+//OUTPUT
+// A
+// AB
+// ABC
+// ABCD
